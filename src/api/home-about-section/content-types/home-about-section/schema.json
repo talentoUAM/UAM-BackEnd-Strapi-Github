@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_about_sections",
+  "info": {
+    "singularName": "home-about-section",
+    "pluralName": "home-about-sections",
+    "displayName": "home-about-section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "textContent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "blocks",
+      "required": true
+    },
+    "titleContent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
+    }
+  }
+}

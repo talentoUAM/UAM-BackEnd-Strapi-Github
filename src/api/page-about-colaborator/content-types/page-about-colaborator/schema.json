@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_about_colaborators",
+  "info": {
+    "singularName": "page-about-colaborator",
+    "pluralName": "page-about-colaborators",
+    "displayName": "page-about-colaborator"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
+    "department": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

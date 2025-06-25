@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "privacy_policy_contents",
+  "info": {
+    "singularName": "privacy-policy-content",
+    "pluralName": "privacy-policy-contents",
+    "displayName": "privacy-policy-content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    }
+  }
+}

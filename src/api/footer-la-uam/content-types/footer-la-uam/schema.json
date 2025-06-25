@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_la_uams",
+  "info": {
+    "singularName": "footer-la-uam",
+    "pluralName": "footer-la-uams",
+    "displayName": "footer-la-uam",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}
