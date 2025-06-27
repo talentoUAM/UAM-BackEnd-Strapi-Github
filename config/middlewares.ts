@@ -5,7 +5,7 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://talentouam.com'], // usa '*' solo en pruebas
+      origin: ['https://talentouam.com', 'https://www.talentouam.com'],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
       headers: ['Content-Type', 'Authorization'],
       credentials: true,
